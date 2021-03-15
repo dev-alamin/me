@@ -1,0 +1,262 @@
+/*/ Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    /*    section title*/
+    .section-title {
+        padding: 20px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .section-padding {
+        padding: 25px 10px;
+    }
+
+
+    .heroText p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    /*    blog*/
+    .single-blog-item {
+        min-height: 460px;
+    }
+    .blog-image {
+        height: 223px;
+    }
+    /*    modal body*/
+    .PortfolioModalBody {
+        font-size: 16px;
+    }
+    h5#portFolioModalTitle {
+        font-size: 25px;
+    }
+    h5.modalLastline {
+        font-size: 16px;
+    }
+    /*    about me*/
+    .personal-informaion-emlPhnetc span {
+        padding: 2px 0;
+    }
+
+    .sideBarProfile .socialLink ul li a span {
+        visibility: visible;
+        top: 0;
+        opacity: 1;
+        position: inherit;
+        padding: 15px 0;
+    }
+
+    /*    formButton*/
+    .contact-form button {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+
+
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 0px) and (max-width: 767.98px) {
+
+
+    .mobileMenuResponsive {
+        display: block;
+    }
+    nav#mainMenuActivation{
+        display: none;
+    }
+    
+    .row.header-mainMenu .col-lg-3{
+        width: 50%;
+        margin-left: 0;
+    }
+    
+    section.main-menu-section.sticky{
+        position: inherit;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*    section title*/
+    .section-title {
+        padding: 20px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    /*about me*/
+    .about-me-left-bg {
+        width: 100%;
+    }
+    /*    slider*/
+    .heroText h2 {
+        font-size: 35px;
+        margin: 0;
+    }
+    .heroText h2 span {
+        margin: 0;
+    }
+    /*    hire button*/
+    .hireDescription h2 {
+        font-size: 30px;
+    }
+
+
+
+    /*    blog*/
+    .single-blog-item {
+        min-height: 550px;
+    }
+    .blog-image {
+        height: 330px;
+    }
+    /*    about me*/
+    .personal-informaion-emlPhnetc span {
+        padding: 2px 0;
+    }
+
+
+    /*    formButton*/
+    .contact-form button {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+
+
+
+
+
+    /*    serviceItem*/
+    .service-details h4 {
+        font-size: 18px;
+    }
+    .service-details p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+
+
+
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*================================    
+    responsive mobile menu
+    ==============================*/
+    .mobileMenuResponsive {
+        display: block;
+    }
+    .mobileMenuResponsive {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    nav#mainMenuActivation {
+        display: none;
+    }
+     section.main-menu-section.sticky{
+        position: inherit;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .row.header-mainMenu .col-lg-3{
+        width: 50%;
+        margin-left: 0;
+    }
+
+
+
+    /*    section title*/
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    .about-me-left-bg {
+        width: 100%;
+    }
+
+    /*    slider*/
+    .heroText h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+    .heroText h2 span {
+        margin: 0;
+    }
+    /*    hire button*/
+    .hiereButton a {
+        padding: 7px 13px;
+    }
+    .hireDescription h2 {
+        font-size: 40px;
+    }
+
+    /*    about me*/
+    .single-barfiller h2 {
+        font-size: 22px;
+    }
+
+
+    /*    formButton*/
+    .contact-form button {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*    slider*/
+    .heroText h2 {
+        font-size: 60px;
+        margin: 0;
+    }
+    .heroText h2 span {
+        margin: -25px;
+    }
+    /*    section title*/
+    .section-title h2 {
+        font-size: 45px;
+    }
+    /*    hire button*/
+    .hiereButton a {
+        padding: 7px 13px;
+    }
+    .hireDescription h2 {
+        font-size: 40px;
+    }
+}

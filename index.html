@@ -1,30 +1,843 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Firts Github Project to show as static site</title>
+<head id="body">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+
+
+
+    <!--    paragraph-->
+    <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!--    animated-headline-->
+    <link rel="stylesheet" href="assets/css/animated-headline.css">
+    <!--animate-css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--barfiller-css-->
+    <link rel="stylesheet" href="assets/css/barfiller.css">
+    <!--animate-css-->
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <!--    magnific Popup video -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--    meanMenu for mobile -->
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Al amin || Web Developer</title>
+    <link rel="Icon" href="assets/Images/avatar.jpg">
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!--    custom-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--responsive-css-custom-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
-    <section class="hero-section">
-        <h1>This is my first project on github</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis unde eius alias eaque id impedit tempora
-            beatae voluptatem, culpa aliquam dignissimos, officia nihil qui itaque, fugiat vel. Eius, esse dolore!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis unde eius alias eaque id impedit tempora
-            beatae voluptatem, culpa aliquam dignissimos, officia nihil qui itaque, fugiat vel. Eius, esse dolore!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis unde eius alias eaque id impedit tempora
-            beatae voluptatem, culpa aliquam dignissimos, officia nihil qui itaque, fugiat vel. Eius, esse dolore!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis unde eius alias eaque id impedit tempora
-            beatae voluptatem, culpa aliquam dignissimos, officia nihil qui itaque, fugiat vel. Eius, esse dolore!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis unde eius alias eaque id impedit tempora
-            beatae voluptatem, culpa aliquam dignissimos, officia nihil qui itaque, fugiat vel. Eius, esse dolore!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis unde eius alias eaque id impedit tempora
-            beatae voluptatem, culpa aliquam dignissimos, officia nihil qui itaque, fugiat vel. Eius, esse dolore!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis unde eius alias eaque id impedit tempora
-            beatae voluptatem, culpa aliquam dignissimos, officia nihil qui itaque, fugiat vel. Eius, esse dolore!</p>
+    <!--=====================================================Header==========================================-->
+
+    <div class="modalSectionForHomeButton">
+        <!-- Button trigger modal -->
+        <!--
+<button type="button" class="btn btn-primary" >
+  Launch demo modal
+</button>
+-->
+
+        <!-- ==============================================Modal====================================================== -->
+        <div class="modal fade" id="homeModalButton" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content portfolioModalContent">
+                    <div class="modal-header">
+                        <h5 class="PortfolioModal-title" id="portFolioModalTitle">What you can get:</h5>
+                        <!--
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+-->
+                    </div>
+                    <div class="modal-body PortfolioModalBody">
+                        <p> <i class="fa fa-asterisk"></i>An experienced worker</p>
+                        <p> <i class="fa fa-asterisk"></i>User experienced developer</p>
+                        <p> <i class="fa fa-asterisk"></i>Lifetime support</p>
+                        <p> <i class="fa fa-asterisk"></i>Client priority developer</p>
+                        <p> <i class="fa fa-asterisk"></i>We are able to deliver quickly</p>
+                        <p> <i class="fa fa-asterisk"></i>We have a team as well</p>
+                        <p> <i class="fa fa-asterisk"></i>Commonly faced deadline problem-free service</p>
+                        <p> <i class="fa fa-asterisk"></i>Graphic design, logo design, webdesign and developer in at a hand</p>
+                        <h5 class="modalLastline">Do you need to talk a bit? just click the contact menu or the left sidebar menu</h5>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================================end of modal======================-->
+
+    <!--side-bar-profile-->
+    <div class="off-canvas-overlay"></div>
+    <div class="sideBarProfile">
+        <div class="sideClose"><i class="fa fa-close"></i></div>
+        <div class="sideBarContent">
+            <div class="picAndTitle">
+                <div class="sidebarImg">
+                    <img src="assets/Images/avatar.jpg" alt="">
+                </div>
+                <div class="nameTitle">
+                    <h2>Al amin <span>Freelance Web designer and developer</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="socialLink">
+            <ul>
+                <li><a href="https://www.facebook.com/contact.alamin" target="_blank"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+                <li><a href="https://www.youtube.com/c/mdalamintube" target="_blank"><i class="fa fa-youtube"></i><span>youtube</span></a></li>
+                <li><a href="https://twitter.com/contact_alamin" target="_blank"><i class="fa fa-twitter"></i><span>twitter</span></a></li>
+                <li><a href="https://www.linkedin.com/in/contactalamin/" target="_blank"><i class="fa fa-linkedin"></i><span>linkedin</span></a></li>
+            </ul>
+        </div>
+        <div class="features">
+            <h4>Things I always maintain</h4>
+            <p><i class="fa fa-check"></i>Quality Priority</p>
+            <p><i class="fa fa-check"></i>Maintain Deadline</p>
+            <p><i class="fa fa-check"></i>Clean coding</p>
+            <p><i class="fa fa-check"></i>always Active</p>
+            <p><i class="fa fa-check"></i>Love to work with small to big budget</p>
+        </div>
+
+        <div class="emailPhoneSidebar">
+            <h4>Direct to me</h4>
+            <a href="">hmalaminmb4@gmai.com</a>
+            <a href="">+8801743909015</a>
+        </div>
+    </div>
+    <!--side-bar-profile-->
+    
+    
+        
+    
+    
+    
+    <section class="main-menu-section">
+       <div class="mobileMenuResponsive"></div>
+        <div class="container">
+            <div class="row header-mainMenu">
+                <div class="col-lg-3">
+                    <div class="hamberger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-lg-9 text-right">
+                    <nav id="mainMenuActivation" class="mainMenu">
+                        <ul id="nav-single-page">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#aboutMe">About</a></li>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="#works">works</a></li>
+                            <li><a href="#blog">blog</a></li>
+                            <li><a href="#testimonial">Testimonial</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </section>
+
+    
+
+    <header class="hero-bg" id="hero-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="heroText">
+                        <h2 class="topHero ">
+                            <span class="wow bounceInDown" data-wow-duration="2s" data-wow-delay=".2s"> hello, I am</span>
+                            <span class="mainName wow bounceInUp" data-wow-duration="2s" data-wow-delay=".8s"> Al amin</span>
+                        </h2>
+
+
+
+
+
+
+
+
+
+                        <p class="hero-description  cd-headline clip is-full-width wow bounceInUp" data-wow-duration="3s" data-wow-delay=".8s"><span>I do</span>
+                            <span class="cd-words-wrapper waiting">
+				<b class="is-visible">have 2 years of experience on web design</b>
+				<b>web development</b>
+				<b>graphic design</b>
+				<b>logo design</b>
+				<b>responsive design</b>
+				<b>eCommerce website</b>
+				<b>woocomerce  website</b>
+				<b>creative website</b>
+				<b>corporate website</b>
+			</span>
+                        </p>
+
+
+
+
+
+                        <!-- home video, to active just uncomment the bottom line and see-->
+                        <!-- <a href="https://www.youtube.com/watch?v=QQNS9JTE3qU" class="HeroVideoPlayButton" data-video-id="QQNS9JTE3qU "><i class="fa fa-play"></i></a>-->
+
+                        <div class="homeModal wow bounceInUp" data-wow-duration="3s" data-wow-delay=".8s">
+                            <a onclick="return false" href="" class="whatIsAwebsite" data-toggle="modal" data-target="#homeModalButton">At a glance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--==================================================Header end===========================================-->
+
+    <!--=====================================================about me===========================================-->
+    <section class="about-me section-padding" id="aboutMe">
+        <div class="about-me-left-bg">
+            <div class="overlay"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>about me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="personal-details wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <h4>personal details</h4>
+                        <p class="personal-detailsp">
+                            Personal Details: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+
+
+                        </p>
+
+
+                        <div class="personal-informaion-emlPhnetc">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <span> Name: Al amin</span>
+                                    <span>Birthday: 28 December, 1998</span>
+                                    <span>Job:	Freelancer</span>
+                                </div>
+                                <div class="col-lg-6">
+                                    <span>Email: hmalaminmb4@gmail.com</span>
+                                    <span>Phone: +8801743909015</span>
+                                    <span>Location: Dhaka, Bangladesh</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--video-->
+                        <div class="portfolioVideoBg">
+                            <a href="https://www.youtube.com/watch?v=Sd7KK1sGnTM">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="skills wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <p> <span>Skills:</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie</p>
+
+
+
+                        <div class="experience-bar">
+                            <div class="single-barfiller">
+                                <h2>html</h2>
+                                <div id="bar1" class="barfiller">
+                                    <span class="tip"></span>
+                                    <span class="fill" data-percentage="95"></span>
+                                </div>
+                            </div>
+                            <div class="single-barfiller">
+                                <h2>css</h2>
+                                <div id="bar2" class="barfiller">
+                                    <span class="tip"></span>
+                                    <span class="fill" data-percentage="90"></span>
+                                </div>
+                            </div>
+                            <div class="single-barfiller">
+                                <h2>javascript</h2>
+                                <div id="bar3" class="barfiller">
+                                    <span class="tip"></span>
+                                    <span class="fill" data-percentage="40"></span>
+                                </div>
+                            </div>
+                            <div class="single-barfiller">
+                                <h2>php</h2>
+                                <div id="bar4" class="barfiller">
+                                    <span class="tip"></span>
+                                    <span class="fill" data-percentage="30"></span>
+                                </div>
+                            </div>
+                            <div class="single-barfiller">
+                                <h2>Wordpress</h2>
+                                <div id="bar5" class="barfiller">
+                                    <span class="tip"></span>
+                                    <span class="fill" data-percentage="30"></span>
+                                </div>
+                            </div>
+                            <div class="single-barfiller">
+                                <h2>Bootstrap</h2>
+                                <div id="bar6" class="barfiller">
+                                    <span class="tip"></span>
+                                    <span class="fill" data-percentage="95"></span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====================================================about me===========================================-->
+
+    <!--==================================================service===========================================-->
+    <section class="service section-padding" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>What I can provide</h2>
+                    <p>
+                        Marshmallow Topping Brownie Cheesecake Fruitcake Cheesecake Chupa Chups. Chocolate Macaroon Cake Pudding Fruitcake.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-xs-6">
+                    <div class="single-service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+
+                        <!--                       service-no.-->
+                        <div class="service-no">01</div>
+                        <div class="service-icon">
+                            <img src="assets/Images/service-1.png" alt="">
+                        </div>
+                        <div class="service-details">
+                            <h4>web development</h4>
+                            <p>
+                                Cheesecake Chupa Chups. Chocolate Macaroon Cake Pudding Fruitcake.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-6">
+                    <div class="single-service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+
+                        <!--                       service-no.-->
+                        <div class="service-no">02</div>
+                        <div class="service-icon">
+                            <img src="assets/Images/service-2.png" alt="">
+                        </div>
+                        <div class="service-details">
+                            <h4>Graphic Design</h4>
+                            <p>
+                                Cheesecake Chupa Chups. Chocolate Macaroon Cake Pudding Fruitcake.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-6">
+                    <div class="single-service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+
+                        <!--                       service-no.-->
+                        <div class="service-no">03</div>
+                        <div class="service-icon">
+                            <img src="assets/Images/service-3.png" alt="">
+                        </div>
+                        <div class="service-details">
+                            <h4>Responsive Design</h4>
+                            <p>
+                                Cheesecake Chupa Chups. Chocolate Macaroon Cake Pudding Fruitcake.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-6">
+                    <div class="single-service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+
+                        <!--                       service-no.-->
+                        <div class="service-no">04</div>
+                        <div class="service-icon">
+                            <img src="assets/Images/service-4.png" alt="">
+                        </div>
+                        <div class="service-details">
+                            <h4>Wordpress Development </h4>
+                            <p>
+                                Cheesecake Chupa Chups. Chocolate Macaroon Cake Pudding Fruitcake.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-6">
+                    <div class="single-service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+
+                        <!--                       service-no.-->
+                        <div class="service-no">05</div>
+                        <div class="service-icon">
+                            <img src="assets/Images/service-5.png" alt="">
+                        </div>
+                        <div class="service-details">
+                            <h4>Seo</h4>
+                            <p>
+                                Cheesecake Chupa Chups. Chocolate Macaroon Cake Pudding Fruitcake.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-6">
+                    <div class="single-service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+
+                        <!--                       service-no.-->
+                        <div class="service-no">06</div>
+                        <div class="service-icon">
+                            <!--                            <img src="assets/Images/service%20icon-6.png" alt="">-->
+                            <i class="fa fa-clock-o"></i>
+
+                        </div>
+                        <div class="service-details">
+                            <h4>WP Customization</h4>
+                            <p>
+                                Cheesecake Chupa Chups. Chocolate Macaroon Cake Pudding Fruitcake.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================================================service end===========================================-->
+
+
+
+
+    <!--==================================================works===========================================-->
+    <section class="works-section section-padding" id="works">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>some recent works</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="worksItemButton">
+                        <ul class="project-filtering-btn">
+                            <li class="active" data-filter="*">all</li>
+                            <li data-filter=".portfolio">portfolio </li>
+                            <li data-filter=".blog">blog</li>
+                            <li data-filter=".corporate">corporate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="worksItemShowWrap">
+                <div id="filteingParent" class="row filteingParent">
+
+                    <div class="col-lg-6 col-md-6 blog">
+                        <div class="single-works-item worksBg-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                            <a href=""><i class="fa fa-plus"></i></a>
+                            <div class="worksTitle">
+                                <h5>This is a work done my me</h5>
+                                <p>With happy client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 corporate">
+                        <div class="single-works-item  worksBg-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                            <a href=""><i class="fa fa-plus"></i></a>
+                            <div class="worksTitle">
+                                <h5>This is a work done my me</h5>
+                                <p>With happy client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 portfolio">
+                        <div class="single-works-item  worksBg-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                            <a href=""><i class="fa fa-plus"></i></a>
+                            <div class="worksTitle">
+                                <h5>This is a work done my me</h5>
+                                <p>With happy client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 corporate portfolio">
+                        <div class="single-works-item  worksBg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                            <a href=""><i class="fa fa-plus"></i></a>
+                            <div class="worksTitle">
+                                <h5>This is a work done my me</h5>
+                                <p>With happy client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 blog">
+                        <div class="single-works-item  worksBg-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                            <a href=""><i class="fa fa-plus"></i></a>
+                            <div class="worksTitle">
+                                <h5>This is a work done my me</h5>
+                                <p>With happy client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 corporate">
+                        <div class="single-works-item  worksBg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                            <a href=""><i class="fa fa-plus"></i></a>
+                            <div class="worksTitle">
+                                <h5>This is a work done my me</h5>
+                                <p>With happy client</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================================================works end========================================-->
+    <!--==================================================looking for ========================================-->
+
+    <section class="hireButton section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="hireDescription wow zoomIn" data-wow-duration="1s" data-wow-delay=".1s">
+                        <h2>looking for a web developer?</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="hiereButton wow rollIn" data-wow-duration="1s" data-wow-delay=".3s">
+                        <a href="#contact">Hire me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================================================looking end ========================================-->
+
+    <!--==================================================testimonial ========================================-->
+
+
+    <section class="testi-outer section-padding" id="testimonial">
+        <div class="container">
+
+            <div class="row">
+                <div class="section-title">
+                    <h2>what my client say</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-area section-padding">
+        <div class="container">
+            <div class="testimonial-carousel owl-carousel">
+
+                <div class="single-carousel">
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <div class="single-testimonial-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                                <div class="testimonial-avatar">
+                                    <img src="assets/Images/avatar.jpg" alt="">
+                                </div>
+                                <div class="person-title">
+                                    <h4>Al amin <span>web developer</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="testimonial-revew wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nesciunt ipsum a aspernatur accusamus repellendus delectus distinctio </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-carousel">
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <div class="single-testimonial-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                                <div class="testimonial-avatar">
+                                    <img src="assets/Images/avatar.jpg" alt="">
+                                </div>
+                                <div class="person-title">
+                                    <h4>Al amin <span>web developer</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="testimonial-revew wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nesciunt ipsum a aspernatur accusamus repellendus delectus distinctio </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-carousel">
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <div class="single-testimonial-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                                <div class="testimonial-avatar">
+                                    <img src="assets/Images/avatar.jpg" alt="">
+                                </div>
+                                <div class="person-title">
+                                    <h4>Al amin <span>web developer</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="testimonial-revew wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nesciunt ipsum a aspernatur accusamus repellendus delectus distinctio </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================================================testimonial end ========================================-->
+
+
+    <!--==============================================blog section===========================================-->
+
+    <section class="section-padding blog-section" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>my latest blog</h2>
+                </div>
+
+            </div>
+            <div class="blog-parentControl owl-carousel">
+
+                <div class="single-blog-carousel wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+
+                    <div class="single-blog-item">
+                        <div class="blog-image">
+                            <img src="assets/Images/blog-4.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="">
+                                    <h5>how to create css box shadow <span>by al amina</span></h5>
+                                </a>
+                            </div>
+                            <div class="blog-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat neque quibusdam doloremque repudiandae rerum, quis fugit qui dolor atque repellendus at cumque illum asperiores? Omnis voluptatem, similique est nostrum cum!</p>
+                                <a href="" class="blog-moreBtn">read more</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="single-blog-carousel wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+
+                    <div class="single-blog-item">
+                        <div class="blog-image">
+                            <img src="assets/Images/blog-4.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="">
+                                    <h5>how to create css box shadow <span>by al amin</span></h5>
+                                </a>
+                            </div>
+                            <div class="blog-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat neque quibusdam doloremque repudiandae rerum, quis fugit qui dolor atque repellendus at cumque illum asperiores? Omnis voluptatem, similique est nostrum cum!</p>
+                                <a href="" class="blog-moreBtn">read more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="single-blog-carousel wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+                    <div class="single-blog-item">
+                        <div class="blog-image">
+                            <img src="assets/Images/blog-4.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="">
+                                    <h5>how to create css box shadow <span>by al amin</span></h5>
+                                </a>
+                            </div>
+                            <div class="blog-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat neque quibusdam doloremque repudiandae rerum, quis fugit qui dolor atque repellendus at cumque illum asperiores? Omnis voluptatem, similique est nostrum cum!</p>
+                                <a href="" class="blog-moreBtn">read more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="single-blog-carousel wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+                    <div class="single-blog-item">
+                        <div class="blog-image">
+                            <img src="assets/Images/blog-4.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="">
+                                    <h5>how to create css box shadow <span>by al amin</span></h5>
+                                </a>
+                            </div>
+                            <div class="blog-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat neque quibusdam doloremque repudiandae rerum, quis fugit qui dolor atque repellendus at cumque illum asperiores? Omnis voluptatem, similique est nostrum cum!</p>
+                                <a href="" class="blog-moreBtn">read more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="single-blog-carousel wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+                    <div class="single-blog-item">
+                        <div class="blog-image">
+                            <img src="assets/Images/blog-4.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="">
+                                    <h5>how to create css box shadow <span>by al amin</span></h5>
+                                </a>
+                            </div>
+                            <div class="blog-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat neque quibusdam doloremque repudiandae rerum, quis fugit qui dolor atque repellendus at cumque illum asperiores? Omnis voluptatem, similique est nostrum cum!</p>
+                                <a href="" class="blog-moreBtn">read more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--==============================================blog section===========================================-->
+
+
+
+    <!--==================================================contact  ========================================-->
+
+    <section class="contact-area section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>get in touch</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <div class="contact-form wow flipInX" data-wow-duration="1s" data-wow-delay=".2s">
+                        <form action="">
+                            <input type="text" name="yourName" id="firstName" placeholder="Name">
+                            <input type="email" name="email" id="yourEmail" placeholder="Email">
+                            <textarea name="textareasection" id="portfoliotext" placeholder="Hello..." cols="30" rows="5"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--==================================================contact end ========================================-->
+
+    <!--    footer-->
+
+    <footer class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="copyright-text">
+                    <p>© Portfolio HTML template by Al amin All Right Reserved 2018.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- =====================Essential Jquery plungings=============-->
+
+    <!-- ===============main jqurey===========================-->
+    <script src="assets/js/jquery-2.2.2.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.parallax-1.1.3.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!--    filtering js-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--    animated-headline js-->
+    <script src="assets/js/animated-headline.js"></script>
+    <!--    nav js-->
+    <script src="assets/js/jquery.nav.js"></script>
+    <!--    barfiller js-->
+    <script src="assets/js/jquery.barfiller.js"></script>
+    <!--    nice scroll js-->
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <!--    scrollUp scroll js-->
+    <script src="assets/js/jquery.scrollUp.min.js"></script>
+
+    <!--    magnificPopUp video-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Google Map js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ "></script>
+
+
+    <!--    ripple js-->
+    <script src="assets/js/jquery.ripples-min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>
